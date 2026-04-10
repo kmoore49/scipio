@@ -1,10 +1,7 @@
 # AgileBlue Agent Install
 
-## Steps
+## One-Line Install
 
-1. Download this repo (or just the files)
-2. Open PowerShell as Administrator
-3. Navigate to the folder
-4. Run:
+Run PowerShell as Administrator and paste:
 
-.\install.ps1 -ApiKey "YOUR_API_KEY"
+iwr https://raw.githubusercontent.com/kmoore49/scipio/main/install.ps1 -OutFile install.ps1; .\install.ps1 -ApiKey "YOUR_API_KEY"
